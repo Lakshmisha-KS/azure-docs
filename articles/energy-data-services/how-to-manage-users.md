@@ -18,7 +18,7 @@ In this article, you'll know how to manage users in Microsoft Energy Data Servic
 
 Create a Microsoft Energy Data Services Preview instance using the tutorial at [How to create Microsoft Energy Data Services Preview instance](quickstart-create-microsoft-energy-data-services-instance.md).
 
-You will need to pass parameters for generating the access token, which you'll need to make valid calls to the Entitlements API of your Microsoft Energy Data Services Preview instance and also for different user management requests to the Entitlements API. Hence Keep the following values handy for these actions.
+You will need to pass parameters for generating the access token, which you'll need to make valid calls to the Entitlements API of your Microsoft Energy Data Services Preview instance. You will also need these parameters for different user management requests to the Entitlements API. Hence Keep the following values handy for these actions.
 
 #### Find `tenant-id`
 Navigate to the Azure Active Directory account for your organization. One way to do so is by searching for "Azure Active Directory" in the Azure portal's search bar. Once there, locate `tenant-id` under the basic information section in the *Overview* tab. Copy the `tenant-id` and paste in an editor to be used later.  
